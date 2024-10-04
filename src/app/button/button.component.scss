@@ -1,0 +1,16 @@
+button {
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transition: background-color 0.5s;
+    font-weight: bolder;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
